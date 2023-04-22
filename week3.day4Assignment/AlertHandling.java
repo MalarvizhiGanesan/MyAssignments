@@ -51,7 +51,7 @@ public class AlertHandling {
 				
 		//Handling Prompt Alert
 		driver.findElement(By.xpath("//button[contains(@class,'ui-button-success')]")).click();
-		alert.sendKeys("Kalpana");
+		alert.sendKeys("MG");
 		alert.accept();
 		
 		//Get displayed text from screen
